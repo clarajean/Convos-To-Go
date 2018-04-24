@@ -17,33 +17,21 @@ header {
   justify-content: space-around;
   flex-direction: row;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .main_image {
-  display: flex;
-  position: relative;
-  justify-content: center;
   max-width: 100%;
   height: auto;
+  background-image: url("shakinghands.jpg");
+  background-repeat: no-repeat;
 }
 
 .center_text {
   display: flex;
-  position: absolute;
-  top: 35%;
-  left: 19%;
-  font-size: 1.7em;
-  font-weight: 400;
-}
-
-.center_text2 {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 40%;
-  left: 42%;
-  font-size: 1.7em;
+  justify-content: center;
+  align-content: center;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -61,7 +49,7 @@ h2,h3,p {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   color: rgb(244, 129, 85);
   margin-top: 10%;
   margin-bottom: -8%;
@@ -79,19 +67,18 @@ p {
   font-size: 0.5em;
 }
 
-p a{
-  font-size: 1em;
-}
 
-footer {
+  footer.second_nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 10%;
   padding-right: 70%;
   background-color: rgb(244, 129, 85);
+  list-style-type: none;
+  font-size: 0.5em;
 }
 
-a:link{
+a:link {
   text-decoration: none;
 }
